@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to Kubern-etes') {
+        stage('Deploy to KIND Cluster') {
             steps {
                 sshagent(['devops-challenge-node']) {
                     sh '''
