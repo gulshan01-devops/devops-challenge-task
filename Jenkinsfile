@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to KIND Cluster') {
+        stage('Deploy to the KIND Cluster') {
             steps {
                 sshagent(['devops-challenge-node']) {
                     sh '''
