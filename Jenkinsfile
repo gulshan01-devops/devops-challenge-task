@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout from github .') {
+        stage('Checkout from github') {
             steps {
                 git branch: 'main', url: 'https://github.com/gulshan01-devops/devops-challenge-task.git'
             }
