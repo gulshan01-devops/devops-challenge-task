@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sshagent(['devops-challenge-node']) {
                     sh '''
-                        ssh -o StrictHostKeyChecking=no ubuntu@3.85.191.36
+                        ssh -o StrictHostKeyChecking=no ubuntu@54.83.113.88
                         cd ~/task1 &&
                         kubectl apply -f mysql.yml &&
                         kubectl apply -f nginx.yml
