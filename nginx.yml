@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:latest
+          image: nginx:nonexistent-tag-v99
           ports:
             - containerPort: 80
           readinessProbe:
