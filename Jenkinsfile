@@ -15,6 +15,4 @@ pipeline {
                 '''
             }
         }
-    }
-}
-#test-change
+    }}
